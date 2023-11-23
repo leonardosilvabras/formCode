@@ -49,7 +49,12 @@ body #page form {
 body #page form fieldset {
   border: none;
 }
-body #page form fieldset legend {
+body #page form fieldset .fieldset-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 24px;
+}
+body #page form fieldset .fieldset-wrapper legend {
   width: 100%;
   color: #32264d;
   font-family: Archivo;
@@ -58,4 +63,33 @@ body #page form fieldset legend {
   font-weight: 600;
   padding-bottom: 16px;
   border-bottom: 1px solid #e6e6f0;
+}
+body #page form fieldset .fieldset-wrapper .input-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+}
+body #page form fieldset .fieldset-wrapper .input-wrapper label {
+  color: #4e4958;
+  font-size: 14px;
+  line-height: 24px;
+}
+body #page form fieldset .fieldset-wrapper .input-wrapper label span {
+  color: #6c6a71;
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 12px;
+}
+body #page form fieldset .fieldset-wrapper .input-wrapper input,
+body #page form fieldset .fieldset-wrapper .input-wrapper textarea {
+  height: 56px;
+  padding: 0 24px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #e6e6f0;
+  color: #6c6a71;
+  background-color: #fafafc;
+}
+body #page form fieldset .fieldset-wrapper .input-wrapper textarea {
+  padding: 24px;
+  height: 168px;
 }/*# sourceMappingURL=globalStyles.css.map */
