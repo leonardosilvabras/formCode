@@ -79,10 +79,14 @@ body {
                             line-height: 24px;
 
                             span {
-                                color: #6c6a71;
+                                color: #c1bccc;
                                 font-size: 12px;
                                 line-height: 20px;
                                 margin-left: 12px;
+                            }
+
+                            span:hover {
+                                color: #6c6a71;
                             }
                         }
 
@@ -93,13 +97,17 @@ body {
                             flex-shrink: 0;
                             border-radius: 8px;
                             border: 1px solid #e6e6f0;
-                            color: #6c6a71;
+                            color: #c1bccc;
                             background-color: #fafafc;
                         }
 
                         textarea {
                             padding: 24px;
                             height: 168px;
+                        }
+
+                        textarea:hover {
+                            color: #6c6a71;
                         }
                     }
                 }

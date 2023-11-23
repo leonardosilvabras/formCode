@@ -74,10 +74,13 @@ body #page form fieldset .fieldset-wrapper .input-wrapper label {
   line-height: 24px;
 }
 body #page form fieldset .fieldset-wrapper .input-wrapper label span {
-  color: #6c6a71;
+  color: #c1bccc;
   font-size: 12px;
   line-height: 20px;
   margin-left: 12px;
+}
+body #page form fieldset .fieldset-wrapper .input-wrapper label span:hover {
+  color: #6c6a71;
 }
 body #page form fieldset .fieldset-wrapper .input-wrapper input,
 body #page form fieldset .fieldset-wrapper .input-wrapper textarea {
@@ -86,10 +89,13 @@ body #page form fieldset .fieldset-wrapper .input-wrapper textarea {
   flex-shrink: 0;
   border-radius: 8px;
   border: 1px solid #e6e6f0;
-  color: #6c6a71;
+  color: #c1bccc;
   background-color: #fafafc;
 }
 body #page form fieldset .fieldset-wrapper .input-wrapper textarea {
   padding: 24px;
   height: 168px;
+}
+body #page form fieldset .fieldset-wrapper .input-wrapper textarea:hover {
+  color: #6c6a71;
 }/*# sourceMappingURL=globalStyles.css.map */
