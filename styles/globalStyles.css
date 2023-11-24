@@ -122,6 +122,9 @@ body #page form fieldset .fieldset-wrapper .input-wrapper label span {
 body #page form fieldset .fieldset-wrapper .input-wrapper label span:hover {
   color: #6c6a71;
 }
+body #page form fieldset .fieldset-wrapper .input-wrapper input:invalid {
+  border: 2px solid red;
+}
 body #page form fieldset .fieldset-wrapper .input-wrapper input,
 body #page form fieldset .fieldset-wrapper .input-wrapper textarea,
 body #page form fieldset .fieldset-wrapper .input-wrapper select {

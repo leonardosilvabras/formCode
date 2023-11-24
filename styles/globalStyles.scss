@@ -138,6 +138,10 @@ body {
                             }
                         }
 
+                        input:invalid {
+                            border: 2px solid red;
+                        } 
+
                         input,
                         textarea,
                         select {
