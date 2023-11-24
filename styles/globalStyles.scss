@@ -171,5 +171,40 @@ body {
                 }
             }
         }
+
+        footer {
+            background-color: #fafafc;
+            height: 136px;
+            display: flex;
+            flex-flow: column nowrap;
+            padding: 40px 64px;
+            margin-bottom: 100px;
+            border-top: 1px solid #f0f0f4;
+            border-radius: 0 0 8px 8px;
+
+            .button {
+                display: flex;
+                width: 608px;
+                height: 56px;
+                padding: 15px 40px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                flex-shrink: 0;
+                background-color: #04d361;
+                border-radius: 8px;
+                color: #fff;
+                font-family: "Archivo", sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 26px;
+                border: none;
+            }
+
+            .button:hover{
+                transition: .1s;
+                background-color: #02a54c;
+            }
+        }
     }
 }
